@@ -1,0 +1,13 @@
+[package]
+name = "drift-sdk"
+version = "0.1.0"
+edition = "2024"
+description = "SDK for the Drift Platform"
+license = "MIT"
+keywords = ["wasm"]
+repository = "https://github.com/DriftPlatform/rust-sdk"
+readme = "README.md"
+
+[dependencies]
+ciborium = "0.2.2"
+serde = { version = "1.0.228", features = ["derive"] }
